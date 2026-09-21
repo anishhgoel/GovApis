@@ -1,0 +1,15 @@
+# Python virtual environment — never commit this.
+# It is ~16MB, machine-specific (absolute paths baked in), and fully
+# reproducible from requirements.txt.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment / secrets
+.env
+.env.local
+
+# macOS
+.DS_Store
